@@ -27,7 +27,7 @@ codeunit 62040 "PTE DO Payment Advice Mgt."
                 if PaymentProposalHeadEntry.FindFirst() then begin
                     FilterRecord.GETTABLE(PaymentProposalHeadEntry);
                     VariantRecord := PaymentProposalHeadEntry;
-                    EMailTemplateLine.QueueMail(FilterRecord, VariantRecord, 0, 1);
+                    EMailTemplateLine.QueueMail(FilterRecord, VariantRecord, 0, 0);
                 end
             until PaymentProposalHead.Next() = 0;
     end;

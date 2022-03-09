@@ -2,7 +2,7 @@
   "id": "ed5fcb5d-01fd-46e4-a935-5dcf52b76771",
   "name": "Document Output - OPplus payment advises",
   "publisher": "github.com/document-output",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "brief": "Extension that enables Document Output to send OPplus 365 payment advices",
   "description": "Document Output - OPplus payment advises will enable companies to send OPplus payment advises from Continia Document Output",
   "privacyStatement": "",
