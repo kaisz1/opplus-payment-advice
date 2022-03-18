@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="OPplus payment advises send by Continia Document Output">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 102655112 - Method 2294457516 - NamedType 266247278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment proposal(s) have been queued to be send by Document Output.</source>
+          <note from="Developer" annotates="general" priority="2"> %1 = quantity of queued payment proposal heads</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE DO Payment Advice Mgt. - Method SendAdvice - NamedType PaymentProposalsQueuedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Advice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 1245862610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType AmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 2578157976" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fax No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType CompanyInfo__Fax_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 536679201" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType CompanyInfo__Phone_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 91401898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType CompanyInfo__VAT_Registration_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 647040645" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType DocNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 237504606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType DocTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 163307534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ext. Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType ExtDocNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 2530654928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType PaymentInformationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 290194430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Our Bank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Payment_Proposal_Head___Orderer_Bank_Name_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 109204287" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Our Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Payment_Proposal_Head___Our_Account_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 3692868249" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pmt. Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType PmtAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 65795482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pmt. Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType PmtDiscountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Advice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direct Debit Advice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We will pay the following amounts per %1 to your bank account shown below:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We will charge the following amounts per %1 to your account shown below:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total in %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Branch No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Advice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 1728242258 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which document no. field should be printed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control DocumentNoType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 1728242258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control DocumentNoType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 1728242258 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No. and External Document No.,External Document No.,Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control DocumentNoType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 3944286076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A check mark in this field indicates that the report contents are transferred to an Excelsheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control ExcelOutput - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 3944286076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output in Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control ExcelOutput - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 3212869784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether any existing entry comments should be printed below the respective entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control IncludeComments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 3212869784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incl. Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control IncludeComments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 4029954919 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Print e-mail option prints the customer/vendor e-mail address in the payment proposal header on the payment advice note.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control PrintEMail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 4029954919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print E-Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control PrintEMail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 3216524369 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By selecting the Print Fax No. option, the fax number of the customer/vendor specified in the payment proposal header will be printed in the top left corner of the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control PrintFaxNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1809590008 - Control 3216524369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Fax No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report PTE DO Payment Advice - Control PrintFaxNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3501722607 - Action 566272773 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2083389614">
+          <source>Send payment advices by Document Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE DO Paym. Prop. Ext. - Action SendAdviceByCDO - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3501722607 - Action 566272773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2083389614">
+          <source>CDO Send Advise </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE DO Paym. Prop. Ext. - Action SendAdviceByCDO - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
