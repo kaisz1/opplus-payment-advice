@@ -38,13 +38,4 @@ codeunit 62041 "PTE DO Pay. Advice Subscriber"
             end;
         until (CdoEmailTemplateHeader.Next() = 0) or (TemplateFound);
     end;
-
-    // [EventSubscriber(ObjectType::Codeunit, Codeunit::"CDO Events", 'OnMergeFieldFind', '', false, false)]
-    // local procedure CDO_OnMergeFieldFind(FirstMailToContactNo: Code[20]; var EMailTemplateMergeField: Record "CDO E-Mail Template MergeField"; var FilterRecord: RecordRef; var Value: Text)
-    // begin
-    //     if EMailTemplateMergeField."Get From Table No." <> 5157896 then
-    //         exit;
-
-    //     Message(EMailTemplateMergeField.GetValue(FilterRecord, FirstMailToContactNo, false));
-    // end;
 }

@@ -1,13 +1,9 @@
 codeunit 62040 "PTE DO Payment Advice Mgt."
 {
-    trigger OnRun()
-    begin
-
-    end;
-
     procedure SendAdvice(PaymentProposal: Record "OPP Payment Proposal"): Boolean
     var
         EMailTemplateLine: Record "CDO E-Mail Template Line";
+        PaymentProposalHeads: Record "OPP Payment Proposal Head";
         PaymentProposalHead: Record "OPP Payment Proposal Head";
         PaymentExportSetup: Record "OPP Payment Export Setup";
         FilterRecord: RecordRef;
@@ -19,12 +15,15 @@ codeunit 62040 "PTE DO Payment Advice Mgt."
             exit;
 
         // Iterate through the paym. proposal heads and find the once that should be send/printed
-        PaymentProposalHead.SetRange("Gen. Journal Template", PaymentProposal."Journal Template Name");
-        PaymentProposalHead.SetRange("Gen. Journal Batch", PaymentProposal."Journal Batch Name");
-        PaymentProposalHead.SetRange("Print Payment Advice", true);
+        PaymentProposalHeads.SetRange("Gen. Journal Template", PaymentProposal."Journal Template Name");
+        PaymentProposalHeads.SetRange("Gen. Journal Batch", PaymentProposal."Journal Batch Name");
+        PaymentProposalHeads.SetRange("Print Payment Advice", true);
 
-        if PaymentProposalHead.FindSet() then
+        if PaymentProposalHeads.FindSet() then
             repeat
+                PaymentProposalHead := PaymentProposalHeads;
+                PaymentProposalHead.SetRecFilter();
+
                 // Try to find template based on the report id that is configured in opp paym. setup and the current language code
                 FilterRecord.GETTABLE(PaymentProposalHead);
                 FilterRecord.SetView(PaymentProposalHead.GetView());
@@ -34,8 +33,8 @@ codeunit 62040 "PTE DO Payment Advice Mgt."
                     EMailTemplateLine.QueueMail(FilterRecord, VariantRecord, 0, 0);
                     QueueCounter += 1;
                 end;
-            //end
-            until PaymentProposalHead.Next() = 0;
+
+            until PaymentProposalHeads.Next() = 0;
 
         // Feedback to user about quantity of queued entries
         Message(PaymentProposalsQueuedLbl, QueueCounter);
