@@ -13,18 +13,18 @@ You can use the extension on your own risk.
 
 **If you find issues in the code, please report these in the issues list here on Github.**
 
-## Current Features ##
-1. We add an action to the payment proposal 
-2. Find a field value by searching for a caption in the current position (sames procedure like on header fields - but only processed in the current position range)
-3. Find a field value by the column heading (same procedure/training) like on default line fields. This enables the user to capture values based on the column that are not in the default line of the current position
-4. Define a substitution value. If it was not able to find a value for a field you can define another field, who's value will be set as value for the field with the empty value.
-5. Copy a value from the previous line. If it was not able to find a value for a field the system will use the value of this field from the previous line. 
+## Currently included in the extension ##
+1. New Action at the payment proposals to send advices by Document Output queue (not directly)
+![alt text](https://github.com/document-output/opplus-payment-advice/raw/main/media/Payment_Proposals_-_Dynamics_365_Business_Central.png)
+2. Included two Document Output templates that can be used to align it with the end customers corporate identity
+3. Included a customized report 62040 as 1:1 copy the original OPplus payment advice report with a minor customization that prevents the mails to run into an error
 
-## Documentation ##
-There is a basic english documentation available in the repositories Documentation directories:
-- [Microsoft Word](https://github.com/document-capture/advanced-line-recognition/blob/master/Documentation/Advanced%20line%20recognition%20-%20ENU.docx)
-- [PDF Format](https://github.com/document-capture/advanced-line-recognition/blob/master/Documentation/Advanced%20line%20recognition%20-%20ENU.pdf)
-
+## How to setup and use the extension ##
+1. Upload and publish the extension to your Business Central instance
+2. Change the default payment advice report on page "Pmt. Export Setup" to 62040
+3. Import the two templates to Document Output (one template is for vendor advices, the other for customer advices)
+4. Customize the templates according customer requirements
+5. Test with customers (test) payment advices and test recipients
 
 ## Available versions ##
 The code will be updated unregularly for new versions of Document Capture. 
