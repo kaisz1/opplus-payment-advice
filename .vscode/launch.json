@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "BC22OPPDO",
+            "server": "https://demoportaldev.continiaonline.com",
+            "port": 443,
+            "serverInstance": "0361a199-6d0a-4ab6-b722-9d86db1c8b69",
+            "tenant": "default",
+            "authentication": "UserPassword",
+            "schemaUpdateMode": "Synchronize",
+            "disableHttpRequestTimeout": true
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "BC22OPPDO",
+            "server": "https://demoportaldev.continiaonline.com",
+            "port": 443,
+            "serverInstance": "0361a199-6d0a-4ab6-b722-9d86db1c8b69",
+            "tenant": "default",
+            "authentication": "UserPassword",
+            "schemaUpdateMode": "Synchronize",
+            "disableHttpRequestTimeout": true
+        }
+    ]
+}

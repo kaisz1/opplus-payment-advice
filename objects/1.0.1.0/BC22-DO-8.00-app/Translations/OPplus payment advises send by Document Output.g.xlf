@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="OPplus payment advises send by Document Output">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 102655112 - Method 2294457516 - NamedType 266247278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment proposal(s) have been queued to be send by Document Output.</source>
+          <note from="Developer" annotates="general" priority="2"> %1 = quantity of queued payment proposal heads</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PTE DO Payment Advice Mgt. - Method SendAdvice - NamedType PaymentProposalsQueuedLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3501722607 - Action 566272773 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2083389614">
+          <source>Send payment advices by Document Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE DO Paym. Prop. Ext. - Action SendAdviceByCDO - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3501722607 - Action 566272773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2083389614">
+          <source>CDO Send Advise </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension PTE DO Paym. Prop. Ext. - Action SendAdviceByCDO - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
